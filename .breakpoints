@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.py": [
+      {
+        "id": "ea0e3731-179f-4fc2-b497-e961df8156c0",
+        "line": 90,
+        "version": 2648,
+        "index": 2344
+      }
+    ],
+    "templates/index.html": [
+      {
+        "id": "b74f8c02-5060-4ba9-b97a-e2c2abcbbdb8",
+        "line": 8,
+        "version": 52,
+        "index": 73
+      }
+    ]
+  }
+}

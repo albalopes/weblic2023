@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Lista de números de 1 até {{n}}</title>   
+    <style>
+      td,th{       
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h2> Lista de números de 1 até {{n}} </h2>
+
+    <table>
+      <tr>
+        <th>Número</th>
+      {% for i in range(1, n+1) %}
+          <td>{{i}}</td>      
+      {% endfor %}
+      </tr> 
+    </table>
+  </body>
+</html>

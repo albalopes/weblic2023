@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Formulário</title>   
+  </head>
+  <body>
+    <form action="/recebedados" method="post">
+      Nome: <input type="text" name="nome"><br>
+      Escola: <input type="text" name="escola"><br>
+      Estado: <select name="estado">
+      	<option value="RN"> Rio Grande do Norte </option>
+      	<option value="PB"> Paraíba </option>
+      	<option value="PE"> Pernambuco</option>
+      	<option value="CE"> Ceará </option>
+    </select><br>
+
+      Qual a sua formação?:<br>
+    <input type="radio" name="formacao" value="fundamental">Ensino Fundamental<br>
+    <input type="radio" name="formacao" value="medio">Ensino Médio<br>
+    <input type="radio" name="formacao" value="superior">Ensino Superior<br>
+
+      Selecione as modalidades de interesse:<br>
+<input type="checkbox" name="modalidades" value="Natação"> Natação<br>
+<input type="checkbox" name="modalidades" value="Vôlei"> Vôlei<br>
+<input type="checkbox" name="modalidades" value="Futebol"> Futebol<br>
+<input type="checkbox" name="modalidades" value="Judô"> Judô<br>
+
+                                                                      
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
+

@@ -1,0 +1,22 @@
+<html>
+  <head>  
+    <title>Situação Final</title>
+    <style>
+      h3{
+        {%if situacao== "Aprovado" %}
+          color: green;
+        {% elif situacao =="Em recuperação" %}
+          color: yellow;
+        {% else %}
+          color: red;
+        {% endif %}
+      }
+    </style>
+    
+  </head>
+  <body>
+    <h3>
+      Sua situação final é: {{situacao}}
+    </h3>  
+  </body>
+</html>
